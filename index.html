@@ -1,18 +1,19 @@
 <div></div>
-<style>
-    div{
-      width: 118.333px;
-      height: 118.333px;
-      background-image: url("FinalVersion.png");
-      animation: playX 1s steps(6) infinite,
-                 playY 3s steps(3) infinite;
-    }
-    @keyframes playX {
-      from {background-position-x: 0px;}
-      to {background-position-x: -710px;}
-    }
-    @keyframes playY {
-      from {background-position-y: 0px;}
-      to {background-position-y: -355px;}
-    }
-</style>
+        <style>
+            div{
+                width: 125px;
+                height: 136.6px;
+                background: url('{{ asset('FinalVersion.png') }}') left center;
+                animation: playX .5s steps(8) infinite,
+                        playY 2.5s steps(5) infinite;
+            }
+
+            @keyframes playX {
+                from {background-position-x: -1px;}
+                to {background-position-x: -999px;}
+            }
+            @keyframes playY {
+                from {background-position-y: -1px;}
+                to {background-position-y: -682px;}
+            }
+        </style>
