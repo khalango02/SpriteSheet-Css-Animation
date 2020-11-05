@@ -1,11 +1,13 @@
-<div></div>
+<html>
+    <body>
+    <div></div>
         <style>
             div{
                 width: 125px;
                 height: 136.6px;
-                background: url('{{ asset('FinalVersion.png') }}') left center;
+                background: url(spriteloader.png) left center;
                 animation: playX .5s steps(8) infinite,
-                        playY 2.5s steps(5) infinite;
+                           playY 2.5s steps(5) infinite;
             }
 
             @keyframes playX {
@@ -17,3 +19,5 @@
                 to {background-position-y: -682px;}
             }
         </style>
+        </body>
+</html>
